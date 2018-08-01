@@ -1,0 +1,144 @@
+//color class
+.blue {
+    @include component($blue);
+}
+
+.blue-hoki {
+    @include component($blue-hoki);
+}
+
+.blue-steel {
+    @include component($blue-steel);
+}
+
+.blue-madison {
+    @include component($blue-madison);
+}
+
+.blue-chambray {
+    @include component($blue-chambray);
+}
+
+.blue-ebonyclay {
+    @include component($blue-ebonyclay);
+}
+
+.green {
+    @include component($green);
+}
+
+.green-meadow {
+    @include component($green-meadow);
+}
+
+.green-seagreen {
+    @include component($green-seagreen);
+}
+
+.green-turquoise {
+    @include component($green-turquoise);
+}
+
+.green-haze {
+    @include component($green-haze);
+}
+
+.green-jungle {
+    @include component($green-jungle);
+}
+
+.red {
+    @include component($red);
+}
+
+.red-pink {
+    @include component($red-pink);
+}
+
+.red-sunglo {
+    @include component($red-sunglo);
+}
+
+.red-intense {
+    @include component($red-intense);
+}
+
+.red-thunderbird {
+    @include component($red-thunderbird);
+}
+
+.red-flamingo {
+    @include component($red-flamingo);
+}
+
+.yellow {
+    @include component($yellow);
+}
+
+.yellow-gold {
+    @include component($yellow-gold);
+}
+
+.yellow-casablanca {
+    @include component($yellow-casablanca);
+}
+
+.yellow-crusta {
+    @include component($yellow-crusta);
+}
+
+.yellow-lemon {
+    @include component($yellow-lemon);
+}
+
+.yellow-saffron {
+    @include component($yellow-saffron);
+}
+
+.purple {
+    @include component($purple);
+}
+
+.purple-plum {
+    @include component($purple-plum);
+}
+
+.purple-medium {
+    @include component($purple-medium);
+}
+
+.purple-studio {
+    @include component($purple-studio);
+}
+
+.purple-wisteria {
+    @include component($purple-wisteria);
+}
+
+.purple-seance {
+    @include component($purple-seance);
+}
+
+.gray {
+    @include component($gray);
+}
+
+.gray-casdade {
+    @include component($gray-casdade);
+}
+
+.gray-silver {
+    @include component($gray-silver);
+}
+
+.gray-steel {
+    @include component($gray-steel);
+}
+
+.gray-cararra {
+    @include component($gray-cararra);
+}
+
+.gray-gallery {
+    @include component($gray-gallery);
+}

@@ -1,0 +1,12 @@
+{
+  "name": "nghiadev",
+  "version": "0.0.0",
+  "dependencies": {
+    "bootstrap": "~3.3",
+    "font-awesome": "~4.3",
+    "owlcarousel": "*",
+    "jquery": "~1.11",
+    "fancybox": "~2.1.5",
+    "animate.css": "~3.4.0"
+  }
+}

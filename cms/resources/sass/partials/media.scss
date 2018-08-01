@@ -1,0 +1,38 @@
+@media screen and (max-width: 760px) {
+    #homepage {
+        .homapage-content {
+            nav.navbar {
+                background: #282d39;
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                z-index: 15;
+
+                #menu-toggle {
+                    border: 1px solid #8ff2e4;
+                    color: #8ff2e4;
+                    @include border-radius(0px);
+                    padding: 5px 10px;
+                    background: lighten(#282d39, 10%) !important;
+
+                }
+
+                ul {
+                    li {
+                        &.current {
+                            a {
+                                border: none;
+                                display: inline-block;
+
+                                @include border-radius(0px);
+
+                                color: #8ff2e4;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

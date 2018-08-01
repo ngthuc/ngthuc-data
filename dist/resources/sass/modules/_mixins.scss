@@ -1,0 +1,47 @@
+//shadow
+@mixin box-shadow($value) {
+    box-shadow: $value;
+    -webkit-box-shadow: $value;
+    -moz-box-shadow: $value;
+    -ms-box-shadow: $value;
+    -o-box-shadow: $value;
+}
+
+//border-radius
+@mixin border-radius($value) {
+    -webkit-border-radius: $value;
+    -moz-border-radius: $value;
+    -ms-border-radius: $value;
+    -o-border-radius: $value;
+    border-radius: $value;
+}
+
+//background-size
+@mixin background-size($value) {
+    background-size: $value;
+    -webkit-background-size: $value;
+    -moz-background-size: $value;
+    -ms-background-size: $value;
+    -o-background-size: $value;
+}
+
+@mixin component($color) {
+    background-color: $color !important;
+    border-color: $color !important;
+    background-image: none;
+}
+
+@mixin ellipsis($line, $max-height) {
+    display: block;
+    display: -webkit-box;
+    max-width: 100%;
+    max-height: $max-height;
+    margin: 0 auto;
+    -webkit-line-clamp: $line;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+// center vertically and/or horizontally an absolute positioned element
